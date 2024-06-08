@@ -1,0 +1,62 @@
+/* #paragraph{
+    text-align: center;
+} */
+
+
+/* .center-paragraph{
+    text-align: center;
+} */
+
+
+/* *{
+    font-family: Arial, Helvetica, sans-serif ;
+} */
+
+/* h2,
+.center-paragraph,
+#paragraph{
+    text-align: center;
+    color:blue;
+} */
+
+/* div p{
+    background-color:yellowgreen;
+}
+
+div >p{
+    background-color:rebeccapurple;
+} */
+
+
+/* div + p{
+    background-color: aqua;
+} */
+
+/* div ~ p{
+    background-color: aqua;
+} */
+
+/* div ~ p:hover{
+    background-color: aqua;
+} */
+
+
+/* div ~ p::first-letter{
+    color: blue;
+} */
+
+
+a[target] {
+    background-color:rgb(200, 17, 17);
+}
+
+
+
+
+
+
+
+
+
+
+
