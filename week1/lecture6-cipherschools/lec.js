@@ -1,95 +1,95 @@
-// var x= function(x,y){
-//     return x+y;
-// };
+var x= function(x,y){
+    return x+y;
+};
 
 
-// const x=(x,y)=>{
-//     return x+y;
-// };
-// console.log(x(5,6));
+const x=(x,y)=>{
+    return x+y;
+};
+console.log(x(5,6));
 
-// const q1= ["Jan","Feb","Mar"]
-// const q2=["Apr","May","Jun"]
-// const q3=["Jul","Aug","sep"]
+const q1= ["Jan","Feb","Mar"]
+const q2=["Apr","May","Jun"]
+const q3=["Jul","Aug","sep"]
 
-// const year=[...q1,...q2,...q3]
-// console.log(year);
-
-
-// const myNumbers=[34,45,23,56,8,54];
-// let maxValue=Math.max(...myNumbers);
-// console.log(maxValue);
-
-// let sum=0;
-// for (let num of myNumbers){
-//     sum=sum+num ;
-// }
-// console.log(sum);
-
-// const name="CipherSchools"
-// let text="";
-// for (let ch of name){
-//     text+=ch+" " ;
-// }
-// console.log(text);
+const year=[...q1,...q2,...q3]
+console.log(year);
 
 
-// const fruits=new Map ([
-//  ["apples",900],
-//  ["oranges",590],
-//  ["mango",500]
-// ]);
+const myNumbers=[34,45,23,56,8,54];
+let maxValue=Math.max(...myNumbers);
+console.log(maxValue);
 
-// console.log(fruits);
-// console.log(fruits.get("mango"));
+let sum=0;
+for (let num of myNumbers){
+    sum=sum+num ;
+}
+console.log(sum);
 
-
-// class Car{
-//     constructor(name,mfgYear){
-//         this.name=name;
-//         this.mfgYear=mfgYear;
-
-//     }
-// }
-
-// const myCar1=new Car("honda",2012);
-// const myCar2=new Car("volo",2022);
-// console.log(myCar1,myCar2);
+const name="CipherSchools"
+let text="";
+for (let ch of name){
+    text+=ch+" " ;
+}
+console.log(text);
 
 
-// const myFunction=()=>{
-//     return new Promise((resolve,rejiect)=>{
-//     setTimeout(()=>{
-//         console.log("This is Inside Promise");
-//         resolve();
-//     },2000);
+const fruits=new Map ([
+ ["apples",900],
+ ["oranges",590],
+ ["mango",500]
+]);
 
-//     });
-// };
-
-// myFunction()
-//  .then(()=>{
-//     console.log("Resolved");
-//  })
-//  .catch(()=>{
-//     console.log("Rejected");
-//  });
+console.log(fruits);
+console.log(fruits.get("mango"));
 
 
-// const person={
-//     firstName:"harsh",
-//     lastName:"gada",
-//     age:20,
-//     eyeColor:"Black",
-// }
+class Car{
+    constructor(name,mfgYear){
+        this.name=name;
+        this.mfgYear=mfgYear;
 
-// let id=Symbol("id");
-// person[id]=144022
-// console.log(person);
+    }
+}
+
+const myCar1=new Car("honda",2012);
+const myCar2=new Car("volo",2022);
+console.log(myCar1,myCar2);
 
 
-// const addTwoNumbers=(a,b=10)=> a+b;
-// console.log(addTwoNumbers(2));
+const myFunction=()=>{
+    return new Promise((resolve,rejiect)=>{
+    setTimeout(()=>{
+        console.log("This is Inside Promise");
+        resolve();
+    },2000);
+
+    });
+};
+
+myFunction()
+ .then(()=>{
+    console.log("Resolved");
+ })
+ .catch(()=>{
+    console.log("Rejected");
+ });
+
+
+const person={
+    firstName:"harsh",
+    lastName:"gada",
+    age:20,
+    eyeColor:"Black",
+}
+
+let id=Symbol("id");
+person[id]=144022
+console.log(person);
+
+
+const addTwoNumbers=(a,b=10)=> a+b;
+console.log(addTwoNumbers(2));
 
 const addNumbers=(...args)=>{
     console.log(args);

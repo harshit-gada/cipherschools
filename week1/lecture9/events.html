@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta chaset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE-edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./test.css" />
+    <title>Page Title</title>
+  </head>
+  <body>
+    <main>
+      <!-- <h1 onclick="changeText(this)">My Page Title</h1>
+      <p>Nice caption goes here</p>
+
+      <article class="first_article">
+        <h2>List of amazing fruits</h2>
+        <p>Must eat fruits</p>
+        
+        <div class="wrapper-1">
+          <ul class="apple-list">
+            <li class="apple">Apples</li>
+            <li class="orange">Orange</li>
+            <li class="avocado">Avacado</li>
+            <li class="grapes">
+              Grapes
+            <ul>
+                <li class="type-1">Moon drops</li>
+                <li>Sultana</li>
+                <li>Concord</li>
+                <li>Crimson Seedless</li>
+            </ul>
+          </li>
+          <li class="banana">Bananas</li>
+        </ul> 
+      
+        <button class="btn-1">Read full list</button>-->
+        </div>
+        <div>
+            <button onclick="displayDate()">The time is</button>
+            <p id="demo"></p>
+        </div>
+        <!-- <form> -->
+            <input type="test" id="firstname" onchange="upperCase()"/>
+        <!-- </form> -->
+         <!-- <div onmouseover="mOver(this)" onmouseout="mOut(this)" style="background-color: red; width:120px; height:25px; padding:50px;">Mouse over me</div> -->
+         <div onmousedown="mDown(this)" onmouseup="mUp(this)" style="background-color:brown; width:120px; height:25px; padding:50px;">Mouse over me</div>
+    <script>
+        function changeText(id){
+            id.innerHTML="This is after click !";
+        }
+        function displayDate(){
+            document.getElementById("demo").innerHTML=new Date();
+        }
+        function upperCase(){
+            const x=document.getElementById("firstname");
+            x.value=x.value.toUpperCase();
+        }
+        function mOver(obj){
+            obj.innerHTML="Thank you";
+        }
+        function mOut(obj){
+           obj.innerHTML="Mouse Over Me."; 
+        }
+        function mDown(obj){
+            obj.style.backgroundColor="cyan";
+            obj.innerHTML="Release Me";
+        }
+        function mUp(obj){
+            obj.style.backgroundColor="brown";
+            obj.innerHTML="Thank You";
+        }
+    </script>
+  </body>
+</html>
